@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+}
+    nav div{
+        display: flex;
+        justify-content: space-between;
+        background-color: black;
+        color: white;
+        align-items: center;
+        background-position: fixed;
+        list-style: none;
+        gap: 0 3em;
+        padding: 3px 0px;
+        position: fixed;
+        width: 100%;
+
+    }
+
+    ul{
+        display: flex;
+        justify-content: space-between;
+        gap: 0 3em;
+        
+    }
+    header{
+        background-color: red;
+        height: 40vh;
+        padding: 100px;
+    }
+    header center{
+        padding: 10em;
+    }
+    section{
+        background-color: blue;
+        height: 40vh;
+        padding: 100px 0px;
+    }
+    section center{
+        padding:10em ;
+    }
+    footer{
+        background-color: yellow;
+        height: 40vh;
+        padding: 100px 0px;
+    }
+    footer center{
+        padding: 10em;
+    }
+    nav div ul a:hover{
+        background-color: green;
+        cursor: pointer;
+    }nav div ul a{
+        color: white;
+        text-decoration: none;
+    }
+    nav div ul a:active{
+        background-color: rgb(255, 153, 0);
+    }
+</style>
+<body>
+    <nav>
+        <div>
+          <h1>LOGO</h1>
+
+            <ul>
+             <a href="#">HOME</a>
+             <a href="#">ABOUT</a>
+             <a href="#">CONTACT</a>
+             <a href="#">SERVICES</a>
+            </ul>
+        </div>
+        
+            <header>
+                <center>
+                    <h1>HEADER</h1>
+                </center>
+            </header>
+       
+            <section>
+                <center>
+                 <h1>CONTENT</h1>
+                </center>
+            </section>
+        <footer>
+            <center>
+                <h1>FOOTER</h1>
+            </center>
+        </footer>
+     </nav>
+    
+</body>
+</html>
